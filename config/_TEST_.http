@@ -1,0 +1,47 @@
+
+###
+POST http://localhost:3000/user
+content-type: application/json 
+ 
+{"nickname": "Lu", "idade": 26, "CriadoEm": "" }
+###
+GET http://localhost:3000/user/colocar id usuario
+
+###
+
+POST http://localhost:3000/publicacoes
+content-type: application/json 
+{"nome": "Lu", "categoria": "MOBA" }
+
+###
+GET http://localhost:3000/publicacoes/colocar categoria pesquisada
+
+###
+POST http://localhost:3000/noticias
+content-type: application/json 
+{"nome": "", "categoria": "MOBA" , "conteudo": "","criadoEm": }
+
+###
+GET http://localhost:3000/noticias/COLOCAR O ID
+
+
+###
+GET http://localhost:3000/noticias/COLOCAR a CATEGORIA
+
+###
+POST http://localhost:3000/foruns/
+content-type: application/json 
+{"nome": "", "categoria": "MOBA" , "conteudo": "","criadoEm": }
+
+###
+
+GET http://localhost:3000/forum/COLOCAR a CATEGORIA
+
+
+###
+POST http://localhost:3000/games
+content-type: application/json 
+{"nome": "", "categoria": "MOBA" , "conteudo": "","criadoEm": }
+
+###
+GET http://localhost:3000/games/colocar a categoria desejada para pesquisa
